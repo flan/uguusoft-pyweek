@@ -1,0 +1,201 @@
+#Put an advancing wall behind the player.
+20:obs:1:100,225:275:left:5,0
+#Add two advancing from the front.
+30:obs:1:800,75:125
+30:obs:1:800,75:425
+
+100:zmb:1:0:17::::275:bns:feather
+
+#Start adding zombies around 210 (two criss-crossing groups)
+230:zmb:0:1:01:7:15::150
+230:zmb:0:1:01:7:15::450
+
+270:zmb:0:1:01:7:15::150
+270:zmb:0:1:01:7:15::450
+
+#Split the field.
+350:obs:1:400,100:275
+445:obs:1:100,225:112
+445:obs:1:100,225:438
+
+410:obj:gun:3-way:275
+
+#Add more zombies around 500, and during the splitting scene.
+500:zmb:0:0:13:7:::150:spt:reload
+500:zmb:0:0:13:7:::450
+
+550:zmb:0:0:09:7:::150
+550:zmb:0:0:09:7:::450:spt:shield
+
+#Stair-step.
+579:obs:1:550,200:100
+650:obs:1:400,300:150
+707:obs:1:400,400:200
+764:obs:1:400,300:150
+821:obs:1:400,200:100
+878:obs:1:400,100:50
+
+579:obs:1:400,200:450
+636:obs:1:400,100:500
+780:obs:1:400,100:500
+837:obs:1:400,200:450
+894:obs:1:400,300:400
+951:obs:1:800,400:350
+
+690:zmb:0:0:01::::350
+732:obj:gun:rapid:534
+865:zmb:0:0:01::::310
+1000:zmb:0:0:13::::50
+1030:zmb:0:0:13::::75
+1060:zmb:0:0:13::::100
+
+#Start adding more zombies around 1100
+1135:zmb:1:0:14::::275
+1150:zmb:0:1:12:7:20::200
+1150:zmb:0:1:12:7:20::450
+1165:zmb:0:1:12:7:20::150
+1165:zmb:0:1:12:7:20::450
+
+#Introduce a parade of zombies.
+1250:zmb:0:0:12::::220
+1265:zmb:0:0:12::::220
+1280:zmb:0:0:12::::220
+1295:zmb:0:0:12::::220
+1310:zmb:0:0:12::::220
+
+#Slam two obstacles in front of the player.
+1300:obs:1:500,100:700:top:-4,10
+1300:obs:1:500,100:700:bottom:-4,-15
+
+#Add a swarm of shifting zombies, staggered so they're still blastable,
+#originating at Y=220. Toss in one level-2 zombie at the begging of the pack.
+#This should begin at frame 35.
+1373:zmb:1:0:13:7:::275:gun:3-shot
+1384:zmb:0:1:09:7:35::200
+1384:zmb:0:1:09:7:35::350
+1395:zmb:0:1:09:7:35::100
+1395:zmb:0:1:09:7:35::450
+
+1450:obj:bns:life:380
+#Add a slow-rising floor and a quick-falling ceiling.
+1400:obs:1:700,350:724:right:-4,-2
+1575:obs:1:400,250:600:top:0,15
+1540:zmb:0:0:00::::100
+1555:zmb:0:0:00::::100
+1570:zmb:0:0:00::::100
+1585:zmb:0:0:00::::100
+
+#More zombies.
+1730:zmb:0:1:09:7:35::120
+1770:zmb:0:1:09:7:35::480
+1810:zmb:0:1:09:7:35::100
+1850:zmb:0:1:09:7:35::400
+1830:zmb:0:1:09:7:35::120
+1870:zmb:0:1:09:7:35::480
+1910:zmb:0:1:09:7:35::100
+1950:zmb:0:1:09:7:35::400
+
+#Introduce a grid.
+2000:obs:1:400,100:171
+2080:obs:1:400,100:171
+2160:obs:1:400,100:171
+2240:obs:1:400,100:171
+
+2000:obs:1:500,100:379
+2094:obs:1:300,100:379
+2160:obs:1:300,100:379
+2226:obs:1:500,100:379
+
+#Pepper the grid with zombies and various power-ups, with a unique distribution
+#per track.
+2100:zmb:0:0:13::::50:bns:life
+2192:zmb:0:0:13::::500
+2320:zmb:0:0:18::::275
+
+2050:obj:spt:shield:500
+2115:obj:gun:rapid:275
+2200:obj:gun:3-way:50
+2250:obj:bns:feather:500
+2250:obj:bns:feather:55
+
+#More zombies starting at 2400
+2375:zmb:0:0:13::::50
+2400:zmb:0:0:02::::275
+2400:zmb:0:0:13::::500
+
+2525:zmb:0:0:05::::100
+2500:zmb:0:0:13::::275
+2500:zmb:0:0:05::::450
+
+#Send four objects to the centre of the screen.
+2600:obs:1:100,100:-51:top:8,6
+2600:obs:1:100,100:849:top:-8,6
+2600:obs:1:100,100:-51:bottom:8,-6
+2600:obs:1:100,100:849:bottom:-8,-6
+
+#Send in zome zombies while this is happening.
+2660:zmb:0:0:13::::160
+2630:zmb:0:0:15::::275
+2660:zmb:0:0:13::::340
+
+2725:zmb:0:0:13::::50
+2775:zmb:0:0:12::::275
+2750:zmb:0:0:13::::500
+
+2875:zmb:0:0:09::::100
+2800:zmb:0:0:13::::275
+2850:zmb:0:0:09::::450
+
+#Partition a large stretch of the level.
+2900:obs:1:1200,80:225
+2950:obs:1:100,130:500
+2984:obs:1:100,130:500
+3100:obs:1:1200,80:250
+3150:obs:1:100,130:50
+3184:obs:1:100,130:50
+3300:obs:1:1200,80:325
+3350:obs:1:100,130:500
+3384:obs:1:100,130:500
+3500:obs:1:1200,80:300
+3550:obs:1:100,130:50
+3584:obs:1:100,130:50
+3700:obs:1:1200,80:275
+3857:obs:1:100,130:65
+3857:obs:1:100,130:485
+
+#Let's stick a few power-ups in there.
+2972:obj:spt:movement:500
+3172:obj:gun:5-shot:50
+3372:obj:bns:feather:500
+3572:obj:bns:feather:50
+
+3083:zmb:0:1:19:7:35::50:gun:3-way
+3283:zmb:0:1:19:7:35::500
+3483:zmb:0:1:19:7:35::50
+3683:zmb:0:1:19:7:35::400
+
+3025:zmb:0:0:12::::140
+3032:zmb:0:0:05::::95
+
+3153:zmb:0:0:02::::350
+3163:zmb:0:0:02::::380
+3173:zmb:0:0:02::::410
+3183:zmb:0:0:02::::450
+
+3225:zmb:0:0:07::::142
+3230:zmb:0:0:05::::175
+
+3353:zmb:0:0:18::::100
+3365:zmb:0:0:18::::200:bns:feather
+3387:zmb:0:0:18::::120
+
+3625:zmb:0:0:17::::140
+
+3553:zmb:0:0:18::::400
+3587:zmb:0:0:11::::475:bns:life
+
+3855:zmb:0:0:18::::187:bns:feather
+3855:zmb:0:0:18::::363:bns:feather
+
+3990:win
+

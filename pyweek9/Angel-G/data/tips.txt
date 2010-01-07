@@ -1,0 +1,12 @@
+See something green?|Blast it with SPACE and finish it with L-CTRL
+Need to get somewhere in a hurry?|Hold L-SHIFT while moving
+Afraid you'll get hit by a zombie?|Tarred zombies are only a threat to themselves
+Lack of lives getting you down?|Earn 25,000,000 points to get another
+Not racking up points very fast?|Feather zombies to boost the multiplier
+Multiplier ticker making you panic?|Relax -- just hit a zombie to reset it
+Having trouble making stuff black?|Some enemies need to be hit multiple times
+Life calling you away?|Hit TAB to halt the flow of time
+Scared of bullets?|If you wait, they'll only get worse
+Really scared of bullets?|Feather-bombs will clear a small circle
+Waiting for all tips to be displayed?|Your wait's over -- you've seen them all
+
