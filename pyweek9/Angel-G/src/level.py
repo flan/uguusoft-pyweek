@@ -634,7 +634,7 @@ class Level(object):
 						if item:
 							self._objects.append(item)
 			feathered_zombie_count = len(feathered_zombies)
-			new_points = 10000 * feathered_zombie_count * self._player.multiplier * zombie.level
+			new_points = 10000 * feathered_zombie_count * self._player.multiplier
 			update_lives = self._player.addScore(new_points) or update_lives
 			self._score += new_points
 			if feathered_zombie_count:
