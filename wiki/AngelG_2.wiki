@@ -1,0 +1,28 @@
+#Plans for a sequel to Angel-G, tentativly titled Flamethrower-Chainsaw Picnic
+
+= Introduction =
+The working concept for this game is that it should be a much more polished shooter, while still playing similarly to the first one. The scope won't be much larger, but there will be more stuff, to reduce the feeling that everything was reused. (Hey, we had a week last time)
+
+The premise has yet to be fully decided, but it will send 'G through a number of food-party-themed levels, with each one culminating in a boss fight.
+
+Like other contemporary shooters, the emphasis will be on the boss fights themselves, with the plan being to design those events first, then work out the rest of the stage to suit the boss's appearance and style.
+
+= Weapons =
+As in the first game, we intend to give 'G access to a number of different weapons. Unlike the first game, the active weapon will not be chosen by use of powerups. Instead, 'G will have all of his primary weapons from the start and bombs will be unique to each stage. Selection will be handled by use of the mouse wheel (or a keypress), use of each primary weapon's firing modes will be handled by left/right click (or keypress), and bombs will be deployed by middle-click (or keypress). The mouse cursor itself plays a part in targeting, affecting the angle of fire (keypresses will be available for this, too).
+
+== Primary ==
+=== Flamethrower-Chainsaw ===
+As its name implies, this is a chainsaw with a mounted flamethrower. In terms of short-range combat, nothing's more devastating, but it leaves a lot to be desired for ranged play.
+
+The chainsaw has high DPS, with a relatively minimal start-up delay (a short animation of 'G pulling the cord, followed by uninterrupted use). Its range is quite short, however.
+
+The flamethrower has no start-up, but has a brief cooldown period after sustained use (overheating). It does considerable damage at close-range, deteriorating as it travels, disappearing by mid-screen. In terms of implementation, it weill emit a number of projectives in quick succcession, each flying straight and changing in appearance until disappearing. Enemies touched by the flames will be themselves set on fire (which spreads), doing low lasting damage for a brief period.
+
+
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
