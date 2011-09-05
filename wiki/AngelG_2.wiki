@@ -39,10 +39,52 @@ This weapon is twinned, meaning that as long as both scythes are in possession, 
 
 == Secondary ==
 === Lawnmower-Waffleiron ===
-Used only in the Suburban Barbecue Block Party stage, this weapon is literally a waffleiron chained to a lawnmower. The mower speeds along the screen, bounding off the edges, while the waffleiron flails about randomly. If the mower touches an enemy, it is destroyed, and the iron leaves waffleised sprites in its wake.
+Literally a waffleiron chained to a lawnmower. The mower speeds along the screen, bounding off the edges, while the waffleiron flails about randomly. If the mower touches an enemy, it is destroyed, and the iron leaves waffleised sprites in its wake.
 
 === Vacuum-Combine-harvester ===
 A swarm of dust-vacs with big, gnashing blades take off in a myriad of directions, changing course randomly, grinding up any enemies that get in their way. Each one disappears when going off-screen.
 
 === Celebrity Sports-announcer Longbomb ===
 A non-soccer football or other sports-like projectile, is lobbed, along an arc, from 'G, exploding when it makes contact with an obstacle, when the bomb button is pressed again, or when an edge is reached. Upon activation, the caricaturised face of a sports announcer is presented, with decorations like cheerleader pom-poms or vuvuzelas spinning around, while an appropriate sound-clip is played. Enemies in the area of the display are destroyed.
+
+= Stages =
+Unlike the first game, the working plan for levels this time is to make their progression more Megaman-style, whereby the player can choose any level they would like at any time. Score information will be retained on a per-level basis, making it viable to have each one set up as a self-contained challenge. (Which also makes expansion easier)
+
+Completing stages with certain tags will open new stages, to let us retain some semblence of a coherent story, since we plan on greatly upping the voice acting and narrative. We just don't want to force players to play through every level again (especially those they don't like or found difficult) whenever they want to pick up the game.
+
+== Suburbanite Barbecue Block Party ==
+Bomb: Lawnmower-Waffleiron
+Music: 
+
+=== Prelude ===
+
+=== Boss: Republican Minotaur Chef ===
+Equipped with a massive barbecue and wearing an apron with shifting statements meant to satirise the lowest-common-denominator of American stereotypes, this boss is easily enraged and quick to attack with hard-hitting, but easily dodgeable moves.
+
+==== Special attacks ====
+ * 5000 BTUs
+  * Summoning the barbecue, the minotaur proceeds to crank up the heat to full, creating a wall of fire that stops projectiles. Hamburger patties and sausages are periodically flipped in random directions.
+
+== Happy Playground Fun-time Daycare ==
+Bomb: Vacuum-Combine-harvester
+Music: 
+
+=== Prelude ===
+
+=== Boss: Glassy-eyed "Barbie"-like doll ===
+Initially just a doll that has seen considerable wear and abuse, with exposed joints, missing patches of hair, and a non-centred head, as the battle progresses and its limbs take damage, they are replaced with more heads that grow out of the broken parts. These heads periodically, in complete unison, turn to stare at the player.
+
+==== Special attacks ====
+
+== Soccer team pizza party ==
+Bomb: Celebrity Sports-announcer Longbomb
+Music: 
+
+=== Prelude ===
+Location: Soccer field
+
+Enemies in this stage "dive" when slow-moving projectiles are near them, using a secondary, larger hitbox. When the hitbox is penetrated, if the projectile is in there for at least three frames, the enemy will change their position to make themselves harder to hit, mocking soccer players who try to fake injuries on the field. 'G can easily take them out withotu risk of retaliation while they're in this state, and they take considerably more damage.
+
+=== Boss: Little Mussolini (tentative) ===
+Splashphrase: "Je veut etre Napoleon!"
+Location: Pizza parlor
