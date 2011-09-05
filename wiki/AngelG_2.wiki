@@ -7,6 +7,13 @@ The premise has yet to be fully decided, but it will send 'G through a number of
 
 Like other contemporary shooters, the emphasis will be on the boss fights themselves, with the plan being to design those events first, then work out the rest of the stage to suit the boss's appearance and style.
 
+= Premise =
+We have not yet decided what Angel-G's motivation will be. The gist of the current idea is as follows:
+ * 'G sought councelling, changing his obsession from creampuffs to some other delicious snack.
+ * There was a local grocery shortage of that treat, owing to a sharp increase in picnics, spurned by some unknown advertising campaign.
+ * 'G snapped. Again.
+ * Chaotic rampage ensues.
+
 = Weapons =
 As in the first game, we intend to give 'G access to a number of different weapons. Unlike the first game, the active weapon will not be chosen by use of powerups. Instead, 'G will have all of his primary weapons from the start and bombs will be unique to each stage. Selection will be handled by use of the mouse wheel (or a keypress), use of each primary weapon's firing modes will be handled by left/right click (or keypress), and bombs will be deployed by middle-click (or keypress). The mouse cursor itself plays a part in targeting, affecting the angle of fire (keypresses will be available for this, too).
 
