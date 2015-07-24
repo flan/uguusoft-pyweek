@@ -1,0 +1,88 @@
+# Introduction #
+The working concept for this game is that it should be a much more polished shooter, while still playing similarly to the first one. The scope won't be much larger, but there will be more stuff, to reduce the feeling that everything was reused. (Hey, we had a week last time)
+
+The premise has yet to be fully decided, but it will send 'G through a number of food-party-themed levels, with each one culminating in a boss fight.
+
+Like other contemporary shooters, the emphasis will be on the boss fights themselves, with the plan being to design those events first, then work out the rest of the stage to suit the boss's appearance and style.
+
+# Premise #
+We have not yet decided what Angel-G's motivation will be. The gist of the current idea is as follows:
+  * 'G sought councelling, changing his obsession from creampuffs to some other delicious snack.
+  * There was a local grocery shortage of that treat, owing to a sharp increase in picnics, spurned by some unknown advertising campaign.
+  * 'G snapped. Again.
+  * Chaotic rampage ensues.
+
+# Weapons #
+As in the first game, we intend to give 'G access to a number of different weapons. Unlike the first game, the active weapon will not be chosen by use of powerups. Instead, 'G will have all of his primary weapons from the start and bombs will be unique to each stage. Selection will be handled by use of the mouse wheel (or a keypress), use of each primary weapon's firing modes will be handled by left/right click (or keypress), and bombs will be deployed by middle-click (or keypress). The mouse cursor itself plays a part in targeting, affecting the angle of fire (keypresses will be available for this, too).
+
+## Primary ##
+### Flamethrower-Chainsaw ###
+As its name implies, this is a chainsaw with a mounted flamethrower. In terms of short-range combat, nothing's more devastating, but it leaves a lot to be desired for ranged play.
+
+The chainsaw has high DPS, with a relatively minimal start-up delay (a short animation of 'G pulling the cord, followed by uninterrupted use). Its range is quite short, however.
+
+The flamethrower has no start-up, but has a brief cooldown period after sustained use (overheating). It does considerable damage at close-range, deteriorating as it travels, disappearing by mid-screen. In terms of implementation, it weill emit a number of projectives in quick succcession, each flying straight and changing in appearance until disappearing. Enemies touched by the flames will be themselves set on fire (which spreads), doing low lasting damage for a brief period.
+
+### Gardenhose-Minigun ###
+The ultimate in watergun warfare, connecting a garden-hose (complete with hose dragged along off-screen) to a military surplus minigun creates a devastating barrage of napalm, holywater, and acids (among other unmentionable substances). Though well-suited to mid-range combat, used creatively, this can cover long-range and short-range applications, too.
+
+When switching between modes, there is a short delay while 'G couples/decouples the hose and the assembly. The minigun has no start-up delay, but chambers a fixed number of rounds that reload at a rate slower than that of discharge (after reaching maximum capacity, droplets of water fall from the assembly as an overfill-avoidance mechanism); it also increases in fire-rate the longer it is engaged. The hose builds up in pressure when unused, causing it to travel for a longer distance, with more initial projectiles, but it quickly dies down to a small stream.
+
+Minigun rounds have high initial velocity, but disperse at mid-range; their damage does not deteriorate. The gardenhose stream arcs with gravity.
+
+### Snipy-Scythes ###
+Not to be confused with snippy-scythes, the wheat-harvesting tools that sass back, these menacing tools are a pair of sniper-rifiles built into boomeranging scythes. Devastating at long range, yet able to cover 'G up close.
+
+This weapon is twinned, meaning that as long as both scythes are in possession, 'G can fire two rounds in quick succession, with a short reloading period between bursts (may be changed to a cartridge-based system). When thrown, the direction of the scythe will be determined based on the closest enemy to 'G and leave instantly, making it a good reflex-reaction tool; the scythe will fly towards the centre of the enemy before returning (changing direction mid-flight), doing decently high DPS. As a panic defense, if 'G is unable to shoot because both scythes are in flight or because the remaining scythe is in a cooldown state, the in-flight scythes can be re-targeted by using the throw button or be made to fire a barrage of five lower-powered bullets (one time per toss) using the fire button, with their target being roughly the location of the cursor.
+
+## Secondary ##
+### Lawnmower-Waffleiron ###
+Literally a waffleiron chained to a lawnmower. The mower speeds along the screen, bounding off the edges, while the waffleiron flails about randomly. If the mower touches an enemy, it is destroyed, and the iron leaves waffleised sprites in its wake.
+
+### Vacuum-Combine-harvester ###
+A swarm of dust-vacs with big, gnashing blades take off in a myriad of directions, changing course randomly, grinding up any enemies that get in their way. Each one disappears when going off-screen.
+
+### Celebrity Sports-announcer Longbomb ###
+A non-soccer football or other sports-like projectile, is lobbed, along an arc, from 'G, exploding when it makes contact with an obstacle, when the bomb button is pressed again, or when an edge is reached. Upon activation, the caricaturised face of a sports announcer is presented, with decorations like cheerleader pom-poms or vuvuzelas spinning around, while an appropriate sound-clip is played. Enemies in the area of the display are destroyed.
+
+# Stages #
+Unlike the first game, the working plan for levels this time is to make their progression more Megaman-style, whereby the player can choose any level they would like at any time. Score information will be retained on a per-level basis, making it viable to have each one set up as a self-contained challenge. (Which also makes expansion easier)
+
+Completing stages with certain tags will open new stages, to let us retain some semblence of a coherent story, since we plan on greatly upping the voice acting and narrative. We just don't want to force players to play through every level again (especially those they don't like or found difficult) whenever they want to pick up the game.
+
+## Suburbanite Barbecue Block Party ##
+Bomb: Lawnmower-Waffleiron
+Music:
+
+### Prelude ###
+
+### Boss: Republican Minotaur Chef ###
+Equipped with a massive barbecue and wearing an apron with shifting statements meant to satirise the lowest-common-denominator of American stereotypes, this boss is easily enraged and quick to attack with hard-hitting, but easily dodgeable moves.
+
+#### Special attacks ####
+  * 5000 BTUs
+    * Summoning the barbecue, the minotaur proceeds to crank up the heat to full, creating a wall of fire that stops projectiles. Hamburger patties and sausages are periodically flipped in random directions.
+
+## Happy Playground Fun-time Daycare ##
+Bomb: Vacuum-Combine-harvester
+Music:
+
+### Prelude ###
+
+### Boss: Glassy-eyed "Barbie"-like doll ###
+Initially just a doll that has seen considerable wear and abuse, with exposed joints, missing patches of hair, and a non-centred head, as the battle progresses and its limbs take damage, they are replaced with more heads that grow out of the broken parts. These heads periodically, in complete unison, turn to stare at the player.
+
+#### Special attacks ####
+
+## Soccer team pizza party ##
+Bomb: Celebrity Sports-announcer Longbomb
+Music:
+
+### Prelude ###
+Location: Soccer field
+
+Enemies in this stage "dive" when slow-moving projectiles are near them, using a secondary, larger hitbox. When the hitbox is penetrated, if the projectile is in there for at least three frames, the enemy will change their position to make themselves harder to hit, mocking soccer players who try to fake injuries on the field. 'G can easily take them out withotu risk of retaliation while they're in this state, and they take considerably more damage.
+
+### Boss: Little Mussolini (tentative) ###
+Splashphrase: "Je veut etre Napoleon!"
+Location: Pizza parlor
